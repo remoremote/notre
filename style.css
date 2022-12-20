@@ -1,0 +1,16 @@
+/* Add some styling to make the website look like a terminal */
+body {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+  }
+  .prompt {
+    color: green;
+  }
+  .command {
+    color: yellow;
+  }
+  .output {
+    color: white;
+  }
+  
