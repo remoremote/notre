@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Terminal</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <!-- Add some content to the terminal -->
-    <div class="prompt">user@machine:~$</div>
-    <div class="command">ls</div>
-    <div class="output">
-      index.html
-      style.css
+    <input type="text" id="command-input" class="command-input"/>
+    <div class="terminal">
+      <p>Welcome to the terminal!</p>
+      <p>Type 'help' for a list of commands</p>
+      <br />
+      <pre id="output"></pre>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

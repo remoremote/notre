@@ -1,16 +1,22 @@
-/* Add some styling to make the website look like a terminal */
-body {
-    font-family: monospace;
-    background-color: black;
-    color: white;
-  }
-  .prompt {
-    color: green;
-  }
-  .command {
-    color: yellow;
-  }
-  .output {
-    color: white;
-  }
-  
+.command-input {
+  width: 500px;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
+}
+
+.terminal {
+  width: 500px;
+  height: 250px;
+  background-color: #333;
+  color: #fff;
+  font-family: monospace;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
