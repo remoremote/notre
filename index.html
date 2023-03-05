@@ -82,9 +82,10 @@
             <p class="ui-text-intro">Psst... Want to be in the know about my latest creations? Don't miss out on the fun - join my waitlist! As part of my inner circle, you'll be the first to know about my latest work. Just drop your email below and let's stay connected.</p>
             <!-- CTA -->
             <div class="ui-component-cta ui-layout-flex">
-              <form action="#" class="ui-component-form ui-layout-grid ui-layout-column-4">
+              <form action="#" class="ui-component-form ui-layout-grid ui-layout-column-4" method="POST" data-netlify="true">
                 <input type="email" placeholder="Email" class="ui-component-input ui-component-input-medium" required>
                 <button type="submit" class="ui-component-button ui-component-button-medium ui-component-button-primary">Join Waitlist</button>
+                <input type="hidden" name="form-name" value="contact">
               </form>
               <p class="ui-text-note"><small>just letting know, this whole waitlist thing is not working yet<br>Future copy: Available on the internet, probably</small></p>
             </div>
@@ -155,11 +156,12 @@
           <p class="ui-text-intro">Leaving so soon? Wait, let me guess, you're too cool for my exclusive waitlist, right? I mean, it's not like I'm ever going to send anything out anyway. But hey, if you want to be part of a non-existent newsletter, drop your email below. It won't hurt to pretend.</p>
           <!-- CTA -->
           <div class="ui-component-cta ui-layout-flex">
-            <form action="#" class="ui-component-form ui-layout-grid ui-layout-column-4">
+            <form action="#" class="ui-component-form ui-layout-grid ui-layout-column-4" method="POST" data-netlify="true">
               <input type="email" placeholder="Email" class="ui-component-input ui-component-input-medium" required>
               <button type="submit" class="ui-component-button ui-component-button-medium ui-component-button-primary">Join Waitlist</button>
+              <input type="hidden" name="form-name" value="contact">
             </form>
-            <p class="ui-text-note"><small>just letting know again, this whole waitlist thing is not working yet lol<br>Future copy: Not available yet but why do something if you can wait.</small></p>
+            <p class="ui-text-note"><small>just letting "you" know again, this whole waitlist thing is not working yet lol<br>Future copy: Not available yet but why do something if you can wait.</small></p>
           </div>
         </div>
       </div>
@@ -177,5 +179,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
