@@ -44,7 +44,7 @@ TABLE OF CONTENT
   --ui-color-n-000: #fff;
   --ui-color-n-050: #ebebff;
   --ui-color-n-100: #dbdbe4;
-  --ui-color-n-300: #120077;
+  --ui-color-n-300: #33238e;
   --ui-color-n-500: #0c0051;
   --ui-color-n-700: #07002d;
   --ui-color-n-900: #030014 ;
@@ -264,6 +264,10 @@ button {
   outline: none;
   text-rendering: inherit;
   text-transform: none;
+}
+
+button:hover {
+  background-color: var(--ui-color-n-300);
 }
 
 /* FORM */
