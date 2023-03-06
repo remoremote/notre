@@ -25,7 +25,7 @@
     <link rel="preload" as="style" href="style.css">
     <link rel="stylesheet" href="style.css">
     <!-- TITLE -->
-    <title>not remoremote | aka notre</title>
+    <title>remoremote aka notre</title>
   </head>
   <body>
     <header role="banner" class="ui-section-header">
@@ -78,7 +78,7 @@
         <div class="ui-layout-container">
           <!-- COPYWRITING -->
           <div class="ui-layout-column-6 ui-layout-column-center">
-            <h1>remoremote</h1>
+            <h1>how did you find this?</h1>
             <p class="ui-text-intro">Psst... Want to be in the know about my latest creations? Don't miss out on the fun - join my waitlist! As part of my inner circle, you'll be the first to know about my latest work. Just drop your email below and let's stay connected.</p>
             <!-- CTA -->
             <div class="ui-component-cta ui-layout-flex">
@@ -86,7 +86,10 @@
                 <input type="email" name="email" placeholder="Email" class="ui-component-input ui-component-input-medium" required>
                 <button type="submit" class="ui-component-button ui-component-button-medium ui-component-button-primary">Join Waitlist</button>
               </form>
-              <p class="ui-text-note"><small>just letting know, this whole waitlist thing is not working yet<br>Future copy: Available on the internet, probably</small></p>
+              <div id="success-message" class="hidden">
+                <p>Thanks I guess :-)</p>
+              </div>
+              <p class="ui-text-note"><small>Available on the internet, probably</small></p>
             </div>
           </div>
         </div>
@@ -151,16 +154,15 @@
     <section class="ui-section-close">
       <div class="ui-layout-container">
         <div class="ui-layout-column-6 ui-layout-column-center">
-          <h2>Sign Up for What Could Be <br>(Or Might Not Be)</h2>
+          <h2>Sign Up for What Could Be</h2><h3>(Or Might Not Be)</h3>
           <p class="ui-text-intro">Leaving so soon? Wait, let me guess, you're too cool for my exclusive waitlist, right? I mean, it's not like I'm ever going to send anything out anyway. But hey, if you want to be part of a non-existent newsletter, drop your email below. It won't hurt to pretend.</p>
           <!-- CTA -->
           <div class="ui-component-cta ui-layout-flex">
-            <form action="#" class="ui-component-form ui-layout-grid ui-layout-column-4" method="POST" data-netlify="true">
-              <input type="email" placeholder="Email" class="ui-component-input ui-component-input-medium" required>
+            <form class="ui-component-form ui-layout-grid ui-layout-column-4" name="contact" method="POST" data-netlify="true">
+              <input type="email" name="email" placeholder="Email" class="ui-component-input ui-component-input-medium" required>
               <button type="submit" class="ui-component-button ui-component-button-medium ui-component-button-primary">Join Waitlist</button>
-              <input type="hidden" name="form-name" value="contact">
             </form>
-            <p class="ui-text-note"><small>just letting "you" know again, this whole waitlist thing is not working yet lol<br>Future copy: Not available yet but why do something if you can wait.</small></p>
+            <p class="ui-text-note"><small>Not available yet but why do something if you can wait.</small></p>
           </div>
         </div>
       </div>
